@@ -25,8 +25,13 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.springframework.boot:spring-boot-starter-web'
-    testRuntimeOnly 'org.springframework.boot:spring-boot-starter-test'
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    implementation('org.projectlombok:lombok:1.18.20')
+    annotationProcessor('org.projectlombok:lombok:1.18.20')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testImplementation('org.projectlombok:lombok:1.18.20')
+    testAnnotationProcessor('org.projectlombok:lombok:1.18.20')
+    testRuntimeOnly('org.springframework.boot:spring-boot-starter-test')
 }
 
 test {
