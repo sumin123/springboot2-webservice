@@ -1,6 +1,7 @@
-package com.jojoldu.book.springboot.config.auth.dto;
+package com.jojoldu.book.springboot.config.auth;
 
 import com.jojoldu.book.springboot.config.auth.LoginUser;
+import com.jojoldu.book.springboot.config.auth.dto.SessionUser;
 import com.nimbusds.openid.connect.sdk.claims.SessionID;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.MethodParameter;
