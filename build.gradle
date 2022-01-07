@@ -38,6 +38,9 @@ dependencies {
     testImplementation('org.projectlombok:lombok:1.18.20')
     testAnnotationProcessor('org.projectlombok:lombok:1.18.20')
     testRuntimeOnly('org.springframework.boot:spring-boot-starter-test')
+    testImplementation("org.junit.vintage:junit-vintage-engine") {
+        exclude group: "org.hamcrest", module: "hamcrest-core"
+    }
 }
 
 test {
