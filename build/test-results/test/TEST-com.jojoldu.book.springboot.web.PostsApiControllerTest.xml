@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.jojoldu.book.springboot.web.PostsApiControllerTest" tests="3" skipped="0" failures="2" errors="0" timestamp="2022-01-07T16:33:42" hostname="DESKTOP-UJJEKAI" time="0.244">
+<testsuite name="com.jojoldu.book.springboot.web.PostsApiControllerTest" tests="3" skipped="0" failures="2" errors="0" timestamp="2022-01-14T16:18:30" hostname="Suminui-MacBookAir.local" time="0.09">
   <properties/>
-  <testcase name="BaseTimeEntity_등록" classname="com.jojoldu.book.springboot.web.PostsApiControllerTest" time="0.124"/>
-  <testcase name="Posts_등록된다" classname="com.jojoldu.book.springboot.web.PostsApiControllerTest" time="0.105">
-    <failure message="org.opentest4j.AssertionFailedError: &#13;&#10;Expecting:&#13;&#10; &lt;302 FOUND&gt;&#13;&#10;to be equal to:&#13;&#10; &lt;200 OK&gt;&#13;&#10;but was not." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+  <testcase name="BaseTimeEntity_등록" classname="com.jojoldu.book.springboot.web.PostsApiControllerTest" time="0.05"/>
+  <testcase name="Posts_등록된다" classname="com.jojoldu.book.springboot.web.PostsApiControllerTest" time="0.029">
+    <failure message="org.opentest4j.AssertionFailedError: &#10;Expecting:&#10; &lt;302 FOUND&gt;&#10;to be equal to:&#10; &lt;200 OK&gt;&#10;but was not." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
 Expecting:
  &lt;302 FOUND&gt;
 to be equal to:
@@ -93,8 +93,8 @@ but was not.
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="Posts_수정된다" classname="com.jojoldu.book.springboot.web.PostsApiControllerTest" time="0.013">
-    <failure message="org.opentest4j.AssertionFailedError: &#13;&#10;Expecting:&#13;&#10; &lt;302 FOUND&gt;&#13;&#10;to be equal to:&#13;&#10; &lt;200 OK&gt;&#13;&#10;but was not." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+  <testcase name="Posts_수정된다" classname="com.jojoldu.book.springboot.web.PostsApiControllerTest" time="0.009">
+    <failure message="org.opentest4j.AssertionFailedError: &#10;Expecting:&#10; &lt;302 FOUND&gt;&#10;to be equal to:&#10; &lt;200 OK&gt;&#10;but was not." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
 Expecting:
  &lt;302 FOUND&gt;
 to be equal to:
@@ -186,7 +186,7 @@ but was not.
   </testcase>
   <system-out><![CDATA[Hibernate: insert into posts (created_date, modified_date, author, content, title) values (?, ?, ?, ?, ?)
 Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_
->>>>>>>>>>> createdDate=2022-01-08T01:33:42.719094, modifiedDate=2022-01-08T01:33:42.719094
+>>>>>>>>>>> createdDate=2022-01-15T01:18:30.260432, modifiedDate=2022-01-15T01:18:30.260432
 Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_
 Hibernate: delete from posts where id=?
 Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_
