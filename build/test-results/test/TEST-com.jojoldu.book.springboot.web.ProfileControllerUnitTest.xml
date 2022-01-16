@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.jojoldu.book.springboot.web.ProfileControllerUnitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-01-16T07:32:54" hostname="Suminui-MacBookAir.local" time="0.0">
+<testsuite name="com.jojoldu.book.springboot.web.ProfileControllerUnitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-01-16T07:37:16" hostname="Suminui-MacBookAir.local" time="0.0">
   <properties/>
   <testcase name="real_profile" classname="com.jojoldu.book.springboot.web.ProfileControllerUnitTest" time="0.0"/>
   <testcase name="oauth_profile" classname="com.jojoldu.book.springboot.web.ProfileControllerUnitTest" time="0.0"/>
