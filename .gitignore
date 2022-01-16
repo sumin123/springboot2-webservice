@@ -2,3 +2,4 @@
 .idea
 src/main/resources/application-oauth.properties
 build/resources/main/application-oauth.properties
+out
